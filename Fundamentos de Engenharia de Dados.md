@@ -33,3 +33,23 @@ Eles devem saber quando definir esquemas para o aplicativo a fim de implementar 
 Eles ainda devem conhecer sobre governança e segurança de dados e estar muito familiarizados com as principais tecnologias que são usadas para construir esses sistemas.
 
 Para trabalhar como Engenheiro de Dados é preciso ter perfil técnico, gostar de computação e dominar o uso de sistemas operacionais (especialmente o Linux) e desenvolver habilidades nas técnicas, procedimentos e ferramentas usados em engenharia de dados.
+
+## Engenheiro de Dados X Cientista de Dados
+
+Antes de mais nada, compreenda que Cientista de Dados e Engenheiro de Dados são profissionais diferentes, com perfis diferentes e que usam essencialmente ferramentas diferentes. É claro que nada impede que um único profissional tenha habilidades para exercer as duas funções e em empresas menores ou Startups isso será uma realidade.
+
+### Cientista de Dados
+
+O Cientista de Dados desenvolve modelos e realiza análises usando Matemática, Estátistica, Programação e Machine Learning para explicar e prever comportamentos complexos, resolvendo problemas das áreas de negócio, no mundo real.
+
+Um Engenheiro de Dados projeta e contrói arquiteturas de dados e pipelines para ingestão, armazenamento, processamento e execução de aplicações de grande escala com Big Data.
+
+"Cientista de Dados" e "Machine Learning" (ML) são disciplinas relacionadas a projetos que tendem a ser concluídos por indivíduos com títulos como "Cientista de Dados".
+
+Os Cientistas de Dados geralmente estão acostumados a trabalhar com todos os tipos de dados e podem usar os mesmos Data Lakes e várias ferramentas de preparação de dados que os Engenheiros de Dados usam.
+
+No entanto, os Cientistas de Dados geralmente transformam seus dados com o objetivo final de lidar com a Ciência de Dados ou problemas de ML, enquanto os Engenheiros de Dados estão mais interessados em criar processos de engenharia para dar suporte a outras partes da empresa.
+
+Embora possam usar as mesmas ferramentas, os propósitos são diferentes. Engenheiros de Dados estão preocupados com o fluxo de dados. Cientistas de Dados estão preocupados com o processo científico de análise de dados e Machine Learning.
+
+Os Engenheiros de Dados geralmente coletam dados de diferentes fontes, transformam os dados em diferentes formatos e, em seguida, entregam os dados a Analistas de Dados, Cientistas de Dados ou Engenheiros de IA. Essa "entrega" pode se dar por meio de repositórios de dados como Data Warehouses e Data Lakes, por meio de APIs de acesso, por meio de containers, por meio de pipelines ou outras opções.
