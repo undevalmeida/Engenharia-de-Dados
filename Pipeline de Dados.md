@@ -12,4 +12,10 @@ Os pipelines de dados modernos automatizam muitas etapas manuais envolvidas na t
 
 Normalmente o pipeline inclui carregar dados brutos em tabela de preparação (área intermediária ou Staging Area) para armazenamento temporário e, em seguida, alterá-los antes de inseri-los no destino.
 
-Pipoline de dados é um conceito e pode ser implementado de muitas formas diferentes, desde ferramentas de automação em ambiente local, ferramentas em nuvem ou mesmo via programação de linguagens Python, R, Scala, C++ ou Java.
+Pipeline de dados é um conceito e pode ser implementado de muitas formas diferentes, desde ferramentas de automação em ambiente local, ferramentas em nuvem ou mesmo via programação de linguagens Python, R, Scala, C++ ou Java.
+
+Um pipeline de dados é uma série de etapas de processamento de dados. Se os dados não estiverem carregados atualmente na plataforma de dados, eles serão ingeridos no início do pipeline. Depois, há uma série de etapas nas quais cada etapa fornece uma saída que é a entrada para a próxima etapa.
+
+Isso continua até que o pipeline esteja completo. Em alguns casos, etapas independentes podem ser executadas em paralelo.
+
+**Construir e manter pipelines de dados é uma das principais atribuições de Engenheiro de Dados**
