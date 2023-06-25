@@ -84,4 +84,3 @@ Os Engenheiros de Dados surpevisionam a ingestão, transformação, modelagem, e
 
 O papel de um Engenheiro de Dados é adquirir, armazenar e agregar dados da nuvem e de sistemas locais, novos e existentes com modelagem de dados e arquitetura de dados viável. Sem os Engenheiros de Dados, os Analistas e os Cientistas de Dados não terão dados valiosos para trabalhar e, portanto, os Engenheiros de Dados são os primeiros a serem contratados no início de cada nova equipe de dados (ou pelo menos deveriam ser). Com base nas ferramentas de dados e análises disponíveis em uma empresa, os perfis de funções, construções e abordagens das equipes de engenharia de dados têm várias opções para o que deve ser incluído em suas responsabilidades.
 
-O mercado está muito aquecido com mais vagas disponíveis do que profissionais capacitados.
