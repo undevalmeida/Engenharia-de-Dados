@@ -45,3 +45,15 @@ Um pipeline de dados pode ser composto de vários pipelines ETL, além de tarefa
 Um pipeline de dados pode ser criado para dados em batch (em lote), dados em streaming ou ambos.
 
 Pense no pipeline de dados com uma grande avenida por onde os dados passam indo do ponto A para o ponto B. Um pipeline ETL seria uma parte desse trajeto.
+
+Pipeline de dados robustos podem equipar uma empresa adequadamente para obter, coletar, gerenciar, analisar e usar dados com eficiência e então usar os dados para gerar novas oportunidades de mercado e fornecer processos de negócios mais eficientes e econômicos.
+
+Os pipelines de dados modernos tornam a extração de informações dos dados coletados rápido e eficiente.
+
+As principais características ao considerar um pipeline de dados incluem:
+
+* Processamento de dados contínuo e extensível.
+* A elasticidade e agilidade da nuvem.
+* Recursos isolados e independentes para processamento de dados.
+* Acesso democratizado a dados e gerenciamento de autoatendimento.
+* Alta disponibilidade e recuperação de desastres.
