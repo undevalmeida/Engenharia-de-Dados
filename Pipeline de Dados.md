@@ -19,3 +19,29 @@ Um pipeline de dados é uma série de etapas de processamento de dados. Se os da
 Isso continua até que o pipeline esteja completo. Em alguns casos, etapas independentes podem ser executadas em paralelo.
 
 **Construir e manter pipelines de dados é uma das principais atribuições de Engenheiro de Dados**
+
+### Componentes de um Pipeline de Dados
+
+1. Origem
+2. Processamento
+3. Destino
+
+## Pipeline de Dados X Pipeline ETL
+
+### Pipeline ETL
+
+Os sistemas de Extração, Transformação e Carga (ETL - Extract, Transform, Load) são um tipo de pipeline de dados, pois eles movem dados de uma origem, transformam os dados e, em seguida, carregam os dados em um destino.
+
+Mas ETL geralmente é apenas um subprocesso de um pipeline. O termo ETL foi criado em uma época onde normalmente o único destino era um Data Warehouse e o processo era bem menos complexo. Hoje ETL faz parte de um processo maior de pipeline de dados.
+
+Mas o processo é cada vez mais complexo e hoje podemos ter inúmeras fontes de dados, inúmeros tipos de processamento e inúmeros destinos. Por isso o termo pipeline de dados vem sendo cada vez mais usado.
+
+### Pipeline de Dados
+
+Um pipeline de dados é mais amplo, pois é todo o processo envolvido no transporte de dados de um local para outro, incluindo limpeza, transformação, enriquecimento, segurança, orquestração integração/entrega contínua (CI/CD).
+
+Um pipeline de dados pode ser composto de vários pipelines ETL, além de tarefas complementares como enriquecimento de dados, gestão de metadados, linhagem de dados entre outras tarefas.
+
+Um pipeline de dados pode ser criado para dados em batch (em lote), dados em streaming ou ambos.
+
+Pense no pipeline de dados com uma grande avenida por onde os dados passam indo do ponto A para o ponto B. Um pipeline ETL seria uma parte desse trajeto.
