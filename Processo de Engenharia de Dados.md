@@ -7,3 +7,13 @@ O processo continua com armazenamento dos dados no destino ou uso em tempo real.
 Análise, gráficos, dashboards, Machine Learning, IA ou qualquer outra tarefa de Ciência de Dados. O pipeline de dados pode ser executado uma única vez ou diversas vezes. A execução do pipeline reques monitoramento, segurança, validação e documentação. O pipeline é então criado, documentado e automatizado. E então outro processo será iniciado para outro produto de dados da empresa. 
 
 Um Arquiteto de Dados é o responsável por projetar a solução. O trabalho de um Engenheiro de Dados envolve contruir e manter soluções de dados.
+
+# Ciclo de Vida da Engenharia de Dados
+
+![Ciclo de Vida da Engenharia de Dados](Ciclo%20de%20Vida%20da%20Engenharia%20de%20Dados.png)
+
+1. Fontes de Dados
+2. Ingestão de Dados
+3. Transformação e Enriquecimento
+4. Carga e Uso dos Dados
+5. Armazenamento (Data Lake, Data Store, Data LakeHouse)
