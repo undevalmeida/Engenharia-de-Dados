@@ -13,3 +13,5 @@ Os pipelines de dados não são peças isoladas criadas pela área de TI (Ou pel
 Logo, cada pipeline de dados devem ter um propósito e deve fazer parte de uma arquitetura de dados que atenda aos requisitos de negócio da empresa, com o menor custo possível, com segurança e que seja flexível às mudanças ao longo do tempo. 
 
 Uma boa estratégia é criar uma POC (Prova de Conceito), uma espécie de laboratório, que simula cenários, valida requisitos de negócio, testa ferramentas e ajuda a prever os custos.
+
+![Pipeline de Dados](Pipeline%20de%20Dados.png)
