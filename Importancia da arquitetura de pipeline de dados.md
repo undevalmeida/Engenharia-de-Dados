@@ -34,3 +34,11 @@ Uma boa estratégia é criar uma POC (Prova de Conceito), uma espécie de labora
 14. Como será monitoramento?
 15. Usaremos diversos pipelines encadeados?
 16. Vamos criar os pipelines locais, na nuvem ou ambos?
+
+# Design de Arquitetura Moderna de Pipeline de Dados Para Empresa da Área de Manufatura
+
+Você trabalha para  uma empresa de manufatura de médio porte que fabrica utensílios domésticos.  A empresa adquiriu recentemente alguns novos equipamentos de fabricação. Essas novas  máquinas  são  sofisticadas  e  podem  se  conectar  à  rede  da  empresa,  enviando  um sinal/dados cada vez que um item é produzido. O sinal é enviado em formato TXT como arquivo plano para um computador na rede local da empresa. Em  vez  de  contar  manualmente  o  estoque,  a  empresa  gostaria  que  a  equipe  de engenharia  de  dados  capturasse  os  dados  gerados  pelas  novas  máquinas  e  os  alimentasse  no sistema  de  estoque que  reside  na  rede  local,  além  de  fornecer  painéis  de  rendimento  das máquinas a fim de prever a necessidade de manutenção preventivae reduzir o tempo de parada das máquinas para manutenção.
+
+Os dados são gerados pelas máquinas a cada 1 hora e armazenados no servidor local. A empresa tem atualmente 10 máquinas e mais 5 serão compradas com entrega prevista para o próximo semestre. Cada máquina gera 1 arquivo de aproximadamente 1 MB. A empresa funciona de segunda à sexta, 12 horas por dia.A  empresa  tem  um departamento  de  TI com15 profissionais,  sendo  3  Engenheiros  de Dados,  1  Arquiteto  de  Dados, 1  Engenheiro  de  Machine  Learning, 2Cientistasde  Dados  e  1 Analista de Dados, entre outros profissionais. Em breve a empresa irá contratar um Engenheiro de IA.
+
+Odepartamento  de  TI  ainda  está  no  meio  de  uma  transição  para  a  nuvem,  eles  têm alguma infraestrutura na AWS (Amazon Web Service) e alguns servidores locais que hospedam o sistema usado para os registros de manufatura. Como Arquiteto de Dados ou Engenheiro de Dados, você foi encarregado de decidir como implementarum pipeline de dados que atenda esses requisitos. Vamos percorrer o processo de design da arquitetura de um pipeline de dados e como podemos abordar as diferentes maneiras de implementar uma solução.
