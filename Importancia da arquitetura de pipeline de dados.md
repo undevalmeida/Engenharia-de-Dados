@@ -53,3 +53,11 @@ Odepartamento  de  TI  ainda  está  no  meio  de  uma  transição  para  a  nu
 ### Solução
 
 ![Solução](Solução%20de%20Pipeline%20de%20Dados.png)
+
+### Uma pergunta será fundamental para definir a arquitetura de um pipeline de dados:
+
+* **Vamos trabalhar com dados em Batch, Streaming ou Ambos?**
+
+## Extração e Processamento dos Dados
+
+Para a extração dos dados podemos usar um sistema de mensagens para extração do ambiente local e ingestão dos dados na nuvem. Podemos usar o Apache Kafka para extrair os dados e enviar para o ambiente em nuvem, onde o Apache Spark poderia fazer o processamento. Isso evitaria a necessidade de ter um armazenamento intermediário. Ou seja, ao invés de armazenar os dados primeiro no Data Lake e processar depois, já processaríamos os dados no momento da extração, aplicando as transformações necessárias e reduzindo o espaço total de armazenamento dos dados. O resultado do processamento seria gravado em um Data Lake para então ser usado em Machine Learning. E enviaríamos as atualizações necessárias para o sistema de estoque da empresa, atendendo assim os 2 requisitos de entrega do pipeline, com o menor custo possível e com todo processamento sendo feito na nuvem.
