@@ -61,3 +61,15 @@ Odepartamento  de  TI  ainda  está  no  meio  de  uma  transição  para  a  nu
 ## Extração e Processamento dos Dados
 
 Para a extração dos dados podemos usar um sistema de mensagens para extração do ambiente local e ingestão dos dados na nuvem. Podemos usar o Apache Kafka para extrair os dados e enviar para o ambiente em nuvem, onde o Apache Spark poderia fazer o processamento. Isso evitaria a necessidade de ter um armazenamento intermediário. Ou seja, ao invés de armazenar os dados primeiro no Data Lake e processar depois, já processaríamos os dados no momento da extração, aplicando as transformações necessárias e reduzindo o espaço total de armazenamento dos dados. O resultado do processamento seria gravado em um Data Lake para então ser usado em Machine Learning. E enviaríamos as atualizações necessárias para o sistema de estoque da empresa, atendendo assim os 2 requisitos de entrega do pipeline, com o menor custo possível e com todo processamento sendo feito na nuvem.
+
+## Containers e Orquestração de Containers Como Parte da Solução
+
+Precisamos publicar, monitorar e atualizar os modelos de Machine Learning (ML). Isso faz parte da solução. Uma alternativa é publicar os modelos de ML através de containers (máquinas virtuais super leves). O Cientista de Dados cria o modelo e o Engenheiro de Machine Learning faz o deploy do modelo através de containers. No pipeline de dados o Engenheiro de Dados deve criar um fluxo que alimente os modelos que estão nos containers. Engenheiro de Dados e Engenheiro de Machine Learning provavelmente trabalharão juntos nesta etapa. poderíamos usar um serviço Amazon Elastic Container Service (Amazon ECS) na nuvem AWS para o deploy dos containers com os modelos de ML.
+
+Ccomo será necessário gerenciar os containers, precisamos de um serviço de orquestração dos containers, sendo o Kubernetes uma opção. E podemos usar o serviço Amazon Elastic Kubernetes Service (EKS). Os serviços ECS e EKS requerem uma camada de computação e poderíamos usar uma arquitetura serveless com o AWS Fargate. 
+
+## IaC (Infraestrtura Como Código) e CI/CD
+
+Mas como vamos gerenciar a criação, atualização e manutenção de toda essa infraestrutura na nuvem?
+
+Aí que entra o conceito de IaC. O objetivo é gerenciar a infraestrutura de forma simples... Permitindo mudanças rápidas e implementando as boas práticas de CI/CD (Integração Contínua/Entrega Contínua). Essencialmente estamos implementando o DataOps.
