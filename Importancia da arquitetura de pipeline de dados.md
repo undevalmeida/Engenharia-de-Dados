@@ -73,3 +73,14 @@ Ccomo será necessário gerenciar os containers, precisamos de um serviço de or
 Mas como vamos gerenciar a criação, atualização e manutenção de toda essa infraestrutura na nuvem?
 
 Aí que entra o conceito de IaC. O objetivo é gerenciar a infraestrutura de forma simples... Permitindo mudanças rápidas e implementando as boas práticas de CI/CD (Integração Contínua/Entrega Contínua). Essencialmente estamos implementando o DataOps.
+
+## Custo do Pipeline de Dados
+
+### Para o custo do pipeline devemos considerar:
+
+* Custo do AWS Data Lake.
+* Custo de implementação do Apache Kafka/Apache Spark.
+* Custo do Amazon ECS, EKS, Fargate.
+* Custo de construção dos modelos de ML.
+* Custo da automação com IaC e boas práticas de CI/CD.
+* Custo de Monitoramento.
