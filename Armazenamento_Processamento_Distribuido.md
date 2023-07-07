@@ -1,4 +1,4 @@
-# Armazenamento e Processamento Distriuído
+# Armazenamento e Processamento Distribuído
 
 ### Onde os dados residem?
 
