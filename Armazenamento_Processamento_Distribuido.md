@@ -31,3 +31,10 @@ As decisões de armazenamento devem ser orientadas pelas necessidades de dados e
 * O armazenamento SQL nasceu na era do Big Data para permitir o armazenamento de dados em diferentes formatos, em especial, dados semi-estruturados como formato JSON, XML ou colunar.
 * São sistemas de armazenamento orientados à performance e facilidade de uso.
 * Exemplos de SGBDs NoSQL: MongoDB, Redis, Apache, Cassandra, Apache HBase e Amazon DynamoDB.
+
+#### Variedade dos Dados
+* Big Data é definido por 4 V's: Volume, Velocidade, Variedade e Veracidade.
+* E o V de Variedade é normalmente uma das partes mais complexas. Pode ser necessário trabalhar com dados no formato de vídeo, áudio, imagens, texto, arquivos pdf ou mesmo ícones. Ou ainda dados em um formato que facilite a pesquisa e reduza o espaço necessário para armazenamento.
+* Bancos de dados SQL ou NoSQL podem não ser ideais nesses casos (vídeo, áudio, imagem, etc...), isso sem falar na perfomance de acesso.
+* Extamante aí que precisaremos de alternativas para armazenamento de diferentes formatos e diferentes sistemas.
+* Alternativas incluem: Parquet, Avro, JSON, CSV, ORC, HDF% e vários outros formatos.
