@@ -59,3 +59,32 @@ Data Warehouse é um conceito, logo pode ser criado com SGBD SQL ou NoSQL, no fo
    * Os DW são frequentemente usados para armazenar dados históricos, pois permitem consultas e análises de dados ao longo do tempo.  
 
 Em geral, um Data Warehouse é uma boa opção se você tiver grande volume de dados que precisa armazenar e analisar com eficiência ou se precisar oferecer suporte a sistemas de relatórios e inteligência de negócios.
+
+### Quando Usar Um Data Lake?
+
+Um DW requer que os dados sejam limpos e organizados antes do armazenamento.
+
+O Data Lake permite o armazenamento dos dados no seu formato bruto para posterior processamento e organização.
+
+DW -> Limpa e Organiza, depois carrega. (ETL -> Extract, Transform, Load)
+
+DL -> Carrega, depois limpa e organiza. (ELT -> Extract, Load, Transform)
+
+Um Data Lake é um repositório centralizado que permite armazenar e processar grandes quantidades de dados estruturados e não estruturados em escala. Ele foi projetado para lidar com uma ampla variedade de tipos de dados e pode armazenar dados em sua forma bruta e não estruturada, permitindo que você armazene e processe dados de maneira mais flexível e escalável do que um banco de dados tradicional. Assim como DW, o Data Lake é um conceito.
+
+Mas por definicção um banco de dados SQL não seria o ideal, uma vez que a ideia é carregar primeiro e limpar e organizar os dados depois. Podemos usar bancos de dados NoSQL ou tecnologias de armazenamento distribuído para construir Data Lakes, localmente ou na nuvem!
+
+#### Existem vários motivos pelos quais você pode optar por usar um Data Lake.
+
+1. Necessidade de armazenar e processar dados em sua forma bruta:
+   * Os Data Lakes permitem que você armazene e processe dados em sua forma bruta e não estruturada, o que pode ser útil se você precisar preservar os dados originais ou se quiser manter a flexibilidade na forma como processa e analisa os dados.
+2. Necessidade de armazenar e processar grandes volumes de dados:
+   * Se você possui um grande volume de dados que precisam ser amazenados e processados, um Data Lake pode ser uma solução eficiente.
+3. Necessidade de armazenar e processar dados estruturados e não estruturados:
+   * Os Data Lakes são adequados para armazenar e processar dados estruturados e não estruturados, tornando-os uma boa escolha se você tiver uma variedade diversificada de dados.
+4. Necessidade de escalabilidade:
+   * Os Data Lakes são projetados para serem escaláveis, permitindo que você armazene e processe facilmente grandes quantidades de dados à medida que suas necessidades aumentam.
+5. Necessidade de um repositório de dados centralizado:
+   * Se você tiver dados de várias fontes que precisa armazenar e processar em local centralizado, um Data Lake pode ser uma ferramenta útil.
+
+Em geral, um Data Lake é uma boa opção se você tiver grandes volumes de dados estruturados e não estruturados que precisa armazenar e processar em escala ou se precisar de um repositório centralizado para armazenar e processar dados de várias fontes.
