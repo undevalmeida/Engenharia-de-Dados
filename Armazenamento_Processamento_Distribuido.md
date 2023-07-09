@@ -88,3 +88,28 @@ Mas por definicção um banco de dados SQL não seria o ideal, uma vez que a ide
    * Se você tiver dados de várias fontes que precisa armazenar e processar em local centralizado, um Data Lake pode ser uma ferramenta útil.
 
 Em geral, um Data Lake é uma boa opção se você tiver grandes volumes de dados estruturados e não estruturados que precisa armazenar e processar em escala ou se precisar de um repositório centralizado para armazenar e processar dados de várias fontes.
+
+### Quando Usar Um Data Lakehouse?
+
+Um Data Lakehouse pode ser definido como uma plataforma de dados moderna construída a partir de uma combinação de um Data Lake e um Data Warehouse. Mais especificamente, um Data Lakehouse une o armazenamento flexível de dados não estruturados de um Data Lake e os recursos e ferramentas de gerenciamento de Data Warehouses e os implementa estrategicamente como um sistema maior.
+
+Essa integração de duas ferramentas exclusivas traz o melhor dos dois mundos para os usuários. 
+
+Data Lakehouses implementam estruturas de dados e recursos de gerenciamento de dados semelhantes aos de um Data Warehouse diretamente sobre o amazenamento em nuvem de baixo custo em formatos abertos e, normalmente, distribuídos.
+
+O Data Lakehouse traz o princípio:
+* From BI to AI
+
+A questão é que nem todas as empresas estão usando AI (Artificial Intelligence)! Ou ainda, tudo que a empresa precisa é de um relatório de BI ou apenas de um sistema de amazenamento de dados no formato bruto!
+
+#### Vantagens ao usar um Data Lakehouse:
+1. Escalabilidade
+2. Flexibilidade
+3. Desempenho de Consulta
+4. Repositório Centralizado
+   
+#### Desvantagens ao usar um Data Lakehouse:
+1. Complexidade
+2. Uso Intensivo de Recursos
+3. Desafios Adicionais de Governança de Dados
+4. Desafios Adicionais de Integração de Dados
