@@ -127,3 +127,23 @@ Tecnicamente podemos dividir os Data Stores em 7 categorias:
 5. Full-Text Search Engine
 6. Fila de Mensagens
 7. In-Memory Data Store
+
+#### Sistemas de Arquivos
+
+* Podem ser local ou em redes (NTFS, FAT, NAS, SAN).
+* Podem ser distribuídos (HDFS - Hadoop Distributed File System, Object Storage).
+* Podem ser na nuvem (Amazon S3, Azure Blob Storage, Google Storage, Delta Lake).
+* O objetivo é armazenar dados em qualquer formato de arquivo (CSV, JSON, PARQUET, AVRO, ORC, etc...).
+* Em geral têm baixo custo.
+
+#### Armazenamento Key-Value
+
+* Outra maneira de armazenar dados não relacionais é em um armazenamento de chave-valor(Key-Value).
+* Um armazenamento de chave-valor é basicamente um hashmap em escala de produção: um mapa de chaves para valores. Não há esquemas sofisticados ou relacionamentos entre os dados. Nenhuma tabela ou grupo lógico de dados do mesmo tipo. Apenas chaves e valores, é isso.
+* Exemplos de armazenamentos de chave-valor: Redis e Memchached.
+
+#### Full-Text Search Engine (Mecanismo de Pesquisa de Texto)
+
+* Os mecanismos de pesquisa são um tipo especial de armazenamento de dados projetados para um caso de uso muito específico: Pesquisar documentos de texto.
+* Você envia documentos semiestruturados para o mecanismo de pesquisa, mas em vez de armazená-los como estão e usar analisadores XML ou JSON para extrair informações, o mecanismo de pesquisa divide o conteúdo do documento em um novo formato otimizado para pesquisa com base em substrings de campos de texto.
+* Elasticsearch é o principal representante desta categoria.
