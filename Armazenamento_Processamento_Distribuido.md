@@ -113,3 +113,17 @@ A questão é que nem todas as empresas estão usando AI (Artificial Intelligenc
 2. Uso Intensivo de Recursos
 3. Desafios Adicionais de Governança de Dados
 4. Desafios Adicionais de Integração de Dados
+
+### Quando Usar Um Data Store?
+
+Um Data Store é um repositório para armazenar e gerenciar dados.
+
+Tecnicamente podemos dividir os Data Stores em 7 categorias:
+
+1. Bancos de dados Relacionais (SQL - Normalmente usados em DWs)
+2. Bancos de Dados Não Relacionais (NoSQL - Podem ser usados em DWs ou Data Lakes)
+3. Sistemas de Arquivos (Distribuídos ou não, são usados em Data Lakes e Data Lakehouses)
+4. Armazenamento Key-Value
+5. Full-Text Search Engine
+6. Fila de Mensagens
+7. In-Memory Data Store
