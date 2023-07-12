@@ -160,3 +160,50 @@ Tecnicamente podemos dividir os Data Stores em 7 categorias:
 * Os In-Memory Data Stores usam RAM para recuperar dados rapidamente, fazendo réplicas constantemente atualizadas de registros de dados e são definidos pelo local em que mantêm os dados, não necessariamente pelo tipo de estrutura de dados.
 * Redis, VoltDB e SAP Hana são os principais representantes desta categoria.
 
+### Formatos de Arquivos Frequentemente Usados em Engenharia de Dados
+
+Uma vez definidos os objetivos, casos de uso e os padrões de acesso, teremos que fazer escolhas quanto ao armazenamento de dados:
+
+* Armazenamento estruturado, semi ou não estruturado? Todos são possíveis?
+* Sistemas de armazenamento como Data Warehouse, Data Lake, Data Lakehouse ou Data Store? Todos são possíveis? Integrações?
+* Armazenamento local ou na nuvem? Ambos?
+* Qual formato de arquivo usar para o armazenamento temporário durante o pipeline de dados ou armazenamento do resultado?
+
+#### Formato Parquet
+
+Parquet é um formato de armazenamento colunar para armazenar grandes quantidades de dados de forma eficiente.
+
+É uma escolha popular para armazenar dados no ecossistema Hadoop (em ambiente distribuído) porque permite consultas e análises eficientes usando ferramentas como Apache Spark, Apache Hive e Impala.
+
+##### Alguns casos de uso específico para arquivos no formato Parquet:
+
+* Armazenamento de grandes quantidades de dados estruturados ou semiestruturados.
+* Consulta de dados usando ferramentas semelhantes a SQL.
+* Compartilhamento de dados entre sistemas.
+* Data Warehousing.
+
+##### Principais características de arquivos no formato Parquet:
+
+* Ótima compressão dos dados (excelente para armzenamento).
+* Leitura seletiva (leitura somente do que realmente precisa dentro do arquivo).
+* Suporte em diversas plataformas (Spark, Pandas, etc...).
+* Fácil de particionar (excelente para leitura dos dados).
+
+#### Formato Avro
+
+Avro é um formato de serialização para armazenar dados.
+
+Esse formato é frequentemente usado no ecossistema Hadoop porque oferece estrutura de dados complexas e é oficiente para armazenar grandes quantidades de dados em um ambiente distribuído.
+
+##### Alguns casos de uso do formato Avro:
+
+* Armazenamento de grandes quantidades de dados.
+* Armazenamento de dados com estruturas complexas.
+* Compartilhamento de dados entre sistemas.
+* Processamento de dados com Hadoop.
+
+##### Principais Características do formato Avro:
+
+* Permite mudanças de Schema.
+* Orientado a linha.
+* Suporte a schema irregular (como JSON).
