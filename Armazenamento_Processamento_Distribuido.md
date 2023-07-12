@@ -147,3 +147,16 @@ Tecnicamente podemos dividir os Data Stores em 7 categorias:
 * Os mecanismos de pesquisa são um tipo especial de armazenamento de dados projetados para um caso de uso muito específico: Pesquisar documentos de texto.
 * Você envia documentos semiestruturados para o mecanismo de pesquisa, mas em vez de armazená-los como estão e usar analisadores XML ou JSON para extrair informações, o mecanismo de pesquisa divide o conteúdo do documento em um novo formato otimizado para pesquisa com base em substrings de campos de texto.
 * Elasticsearch é o principal representante desta categoria.
+
+#### Fila de Mensagens
+
+* Um Data Store bastante útil é o tipo  de fila  de mensagem, agindo como um middleware.
+* Você pode se surpreender ao ver filas de mensagens nesta lista porque elas são consideradas mais uma ferramenta de transferência de dados do que uma ferramenta de armazenamento de dados, mas as filas de mensagens armazenam seus dados com tanta confiabilidade e ainda mais persistência do que algumas das outras ferramentas que listamos anteriormente.
+* O Apache Kafka é o principal representante desta categoria.
+
+#### In-Memory Data Store
+
+* In-Memory Data Stores são sistemas que armazenam, leem, gravam e acessam dados na memória de acesso aleatório (RAM) em vez de na memória somente leitura (ROM).
+* Os In-Memory Data Stores usam RAM para recuperar dados rapidamente, fazendo réplicas constantemente atualizadas de registros de dados e são definidos pelo local em que mantêm os dados, não necessariamente pelo tipo de estrutura de dados.
+* Redis, VoltDB e SAP Hana são os principais representantes desta categoria.
+
