@@ -207,3 +207,10 @@ Esse formato é frequentemente usado no ecossistema Hadoop porque oferece estrut
 * Permite mudanças de Schema.
 * Orientado a linha.
 * Suporte a schema irregular (como JSON).
+
+#### Formato ORC
+
+* ORC (Optimized Row Columnar) é um formato de armazenamento colunar para armazenar grandes quantidades de dados de forma eficiente.
+* Arquivos ORC são compostos de grupos de linhas.
+* Arquivos ORC suportam tipos de dados como datetime, decimal e tipos complexos (lists, maps, structs).
+* Arquivos ORC armazenam os metadados. 
