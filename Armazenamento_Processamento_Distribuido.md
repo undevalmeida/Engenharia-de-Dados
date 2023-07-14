@@ -184,7 +184,7 @@ Parquet é um formato de armazenamento colunar para armazenar grandes quantidade
 
 ##### Principais características de arquivos no formato Parquet:
 
-* Ótima compressão dos dados (excelente para armzenamento).
+* Ótima compressão dos dados (excelente para armazenamento).
 * Leitura seletiva (leitura somente do que realmente precisa dentro do arquivo).
 * Suporte em diversas plataformas (Spark, Pandas, etc...).
 * Fácil de particionar (excelente para leitura dos dados).
@@ -193,7 +193,7 @@ Parquet é um formato de armazenamento colunar para armazenar grandes quantidade
 
 Avro é um formato de serialização para armazenar dados.
 
-Esse formato é frequentemente usado no ecossistema Hadoop porque oferece estrutura de dados complexas e é oficiente para armazenar grandes quantidades de dados em um ambiente distribuído.
+Esse formato é frequentemente usado no ecossistema Hadoop porque oferece estrutura de dados complexas e é eficiente para armazenar grandes quantidades de dados em um ambiente distribuído.
 
 ##### Alguns casos de uso do formato Avro:
 
@@ -214,3 +214,28 @@ Esse formato é frequentemente usado no ecossistema Hadoop porque oferece estrut
 * Arquivos ORC são compostos de grupos de linhas.
 * Arquivos ORC suportam tipos de dados como datetime, decimal e tipos complexos (lists, maps, structs).
 * Arquivos ORC armazenam os metadados. 
+
+#### Formato CSV
+
+* Arquivos CSV (Comma Separated Values) são simples, fáceis e amplamente usados para armazenar dados.
+* Nada de especial. Sem compressão. Sem cabeçalhos built-in (como parquet ou avro).
+* São muito fáceis de usar, desde que o volume de dados não seja muito grande.
+* O delimitador é importante.
+
+#### Formato JSON
+
+* Um dos formatos de arquivo mais úteis para armazenar dados semi-estruturados.
+* JSON (JavaScript Object Notation) é um formato de intercâmbio de dados leve que é fácil para os humanos lerem e escreverem e fácil para as máquinas analisarem e gerarem. É frequentemente usado para armazenar e trocar dados pela Internet. Muito usado em aplicações web.
+* Alternativas são o formato XML e YAML.
+
+### O Que é Um Sistema Distribuído?
+
+E se pudermos usar a capacidade de armazenamento e processamento de diversos computadores simultaneamente? Sim, podemos fazer isso. E assim nasceram os sistemas distribuídos!
+
+Um sistema distribuído é uma rede de computadores que trabalham juntos como um único sistema, e que pode ser usado para armazenamento, processamento ou ambos. Esses sistemas são projetados para compartilhar recursos e cargas de trabalho entre vários computadores, permitindo que eles dimensionem e lidem com cargas de trabalho maiores do que um único computador poderia fazer sozinho. 
+
+Os sistemas distribuídos são frequentementes usados para fornecer serviços como armazenamento de arquivos, gerenciamento de banco de dados ou computação distribuída e podem ser encontrados em uma variedade de contextos, incluindo aplicações web, computação em nuvem, simulações científicas e, claro, Engenharia de Dados.
+
+Existem muitas abordagens diferentes para projetar e implementar sistemas distribuídos, e a arquitetura e o design específicos de um determinado sistema dependerão das necessidades e objetivos do sistema. Mas se sistemas distribuídos trouxeram uma solução eficiente para o armazenamento e processamento, também trouxeram um novo problema: 
+
+**Como vamos gerenciar as tarefas computacionais em diversos computadores simultaneamente?**
