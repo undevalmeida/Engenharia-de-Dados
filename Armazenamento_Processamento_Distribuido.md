@@ -239,3 +239,21 @@ Os sistemas distribuídos são frequentementes usados para fornecer serviços co
 Existem muitas abordagens diferentes para projetar e implementar sistemas distribuídos, e a arquitetura e o design específicos de um determinado sistema dependerão das necessidades e objetivos do sistema. Mas se sistemas distribuídos trouxeram uma solução eficiente para o armazenamento e processamento, também trouxeram um novo problema: 
 
 **Como vamos gerenciar as tarefas computacionais em diversos computadores simultaneamente?**
+
+Usando sistemas de arquivos distribuídos e sistemas de processamento distribuído.
+
+Um sistema distribuído existe sobre a camada local de um computador. 
+
+Considere um sistema distribuído de 3 máquinas:
+* Cada máquina terá o seu próprio sistema operacional.
+* Cada máquina terá seu próprio sistema de arquivos local.
+* Podemos ter cada máquina do sistema distribuído com SO Linux e cada máquina com sistema de arquivos ext4, por exemplo!
+
+Considerando um sistema distribuído de 3 máquinas, para que as 3 máquinas realmente funcionem com um sistema distribuído, precisamos de mais duas camadas de software:
+
+* Um sistema de arquivos distribuído, capaz de gerenciar o armazenamento de forma distribuída pelo sistema.
+* Um sistema de processamento distribuído, capaz de ler e gravar os dados do sistema de armazenamento distribuído e realizar o processamento usando a capacidade computacional oferecida pelas 3 máquinas.
+
+#### Hierarquia de um Sistema Distribuído:
+
+![Hierarquia de sistemas distribuídos](Hierarquia%20de%20sistemas%20distribuidos.png)
