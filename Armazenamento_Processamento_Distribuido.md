@@ -257,3 +257,28 @@ Considerando um sistema distribuído de 3 máquinas, para que as 3 máquinas rea
 #### Hierarquia de um Sistema Distribuído:
 
 ![Hierarquia de sistemas distribuídos](Hierarquia%20de%20sistemas%20distribuidos.png)
+
+##### Exemplos de Sistemas de Arquivos Locais:
+
+* FAT (FAT16, FAT32)
+* NTFS
+* HFS e HPFS
+* APFS
+* UFS
+* ext2, ext3, ext4
+* XFS
+* Veritas File System
+* VMFS
+* ZFS
+* ReiserFS
+
+##### Exemplos de Sistemas de Arquivos Distribuídos:
+
+* Hadoop Distribuited File System (HDFS)
+* Windows Distribuited File System
+* Network File System (NFS)
+* Server Message Block (SMB)
+* Google File System (GFS)
+* Lustre
+* GustreFS
+* Amazon S3, Google Cloud Storage, Microsoft Block Storage
