@@ -282,3 +282,37 @@ Considerando um sistema distribuído de 3 máquinas, para que as 3 máquinas rea
 * Lustre
 * GustreFS
 * Amazon S3, Google Cloud Storage, Microsoft Block Storage
+
+##### Exemplos de Sistemas de Processamento Distribuído:
+
+O processamento distribuído pode ser usado sempre que for necessário algum tipo de computação (Cálculos, resumos, simulações, organização de dados, etc...) e que o processamento local não seja suficiente. Usamos processamento distribuído quando é necessário alta capacidade computacional e/ou trabalhar com alto volume de dados. Para realizar o processamento distribuído precisamos de um software capaz de funcionar em ambiente distribuído.
+
+* Apache Spark
+* Apache Storm
+* Apache Flink
+* Apache Flume
+* Apache Kafka
+* Apache Hadoop MapReduce
+* Apache Beam
+* Elasticsearch
+* Dremio
+* Presto
+* Snowflake
+* Fivetran
+* Apache Airflow
+* Airbyte
+* DBT
+* Google BigQuery
+* AWS Glue
+* AWS Glue
+* AWS Athena
+* Amazon EMR (Elastic MapReduce)
+* Microsoft Azure Synapse
+
+### Vantagens e Desvantagens de Sistemas Distribuídos
+#### Vantagens:
+
+* Escalabilidade: Um sistema distribuído pode ser dimensionado facilmente para lidar com cargas de trabalho crescentes adicionando mais computadores. Há 2 tipos, Horizontal e Vertical. Vertical é quando você aumenta o hardware. Escalabilidade Horizontal é quando adicionamos mais máquinas ao sistema distribuído.
+* Confiabilidade: Se um computador falhar, os outros computadores do sistema podem continuar funcionando.
+* Desempenho: Os sistemas distribuídos geralmente terão um desempenho melhor do que um único computador porque as tarefas podem ser divididas entre vários computadores, permitindo que sejam concluídas em paralelo.
+* Flexibilidade: Os sistemas distribuídos podem ser projetados para serem flexíveis e adaptáveis, permitindo que sejam usados em uma variedade de contextos diferentes e para uma ampla gama de aplicações. 
