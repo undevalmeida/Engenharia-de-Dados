@@ -316,3 +316,10 @@ O processamento distribuído pode ser usado sempre que for necessário algum tip
 * Confiabilidade: Se um computador falhar, os outros computadores do sistema podem continuar funcionando.
 * Desempenho: Os sistemas distribuídos geralmente terão um desempenho melhor do que um único computador porque as tarefas podem ser divididas entre vários computadores, permitindo que sejam concluídas em paralelo.
 * Flexibilidade: Os sistemas distribuídos podem ser projetados para serem flexíveis e adaptáveis, permitindo que sejam usados em uma variedade de contextos diferentes e para uma ampla gama de aplicações. 
+
+#### Desvantagens:
+
+* Complexidade: Os sistemas distribuídos podem ser complexos de projetar e manter, exigindo conhecimento especializado.
+* Sobrecarga de somunicação: Em um sistema distribuído, os computadores precisam se comunicar uns com os outros para coordenar suas ações e compartilhar informações. Isso pode introduzir sobrecarga e latências adicionais.
+* Riscos de Segurança: Os sistemas distribuídos podem ser mais vuneráveis a ameaças de segurança, como ataques a computadores individuais ou à própria rede.
+* Custo: Configurar e manter um sistema distribuído pode ser mais caro do que usar um único computador, seja localmente ou em nuvem.
