@@ -287,28 +287,6 @@ Considerando um sistema distribuído de 3 máquinas, para que as 3 máquinas rea
 
 O processamento distribuído pode ser usado sempre que for necessário algum tipo de computação (Cálculos, resumos, simulações, organização de dados, etc...) e que o processamento local não seja suficiente. Usamos processamento distribuído quando é necessário alta capacidade computacional e/ou trabalhar com alto volume de dados. Para realizar o processamento distribuído precisamos de um software capaz de funcionar em ambiente distribuído.
 
-* Apache Spark
-* Apache Storm
-* Apache Flink
-* Apache Flume
-* Apache Kafka
-* Apache Hadoop MapReduce
-* Apache Beam
-* Elasticsearch
-* Dremio
-* Presto
-* Snowflake
-* Fivetran
-* Apache Airflow
-* Airbyte
-* DBT
-* Google BigQuery
-* AWS Glue
-* AWS Glue
-* AWS Athena
-* Amazon EMR (Elastic MapReduce)
-* Microsoft Azure Synapse
-
 ### Vantagens e Desvantagens de Sistemas Distribuídos
 #### Vantagens:
 
