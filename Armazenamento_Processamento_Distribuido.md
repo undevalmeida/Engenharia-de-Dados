@@ -39,7 +39,6 @@ As decisões de armazenamento devem ser orientadas pelas necessidades de dados e
 * Extamante aí que precisaremos de alternativas para armazenamento de diferentes formatos e diferentes sistemas.
 * Alternativas incluem: Parquet, Avro, JSON, CSV, ORC, HDF5 e vários outros formatos.
 
-
 ### Quando Usar Um Data Warehouse?
 
 Um Data Warehouse é um tipo de banco de dados projetado especificamente para consultas e análises eficientes de grandes quantidades de dados. Ele é normalmente usado par armazenar e gerenciar dados de várias fontes, como bancos de dados transacionais ou arquivos de log.
