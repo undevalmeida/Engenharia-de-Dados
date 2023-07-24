@@ -11,3 +11,17 @@ Eles são coletados, armazenados e processados para fornecer informações útei
 Modelagem de dados é o processo de projetar e criar modelos ou estruturas lógicas que representam como os dados são armazenados, relacionados e usados. Isso inclui a definição de tabelas, campos e relacionamentos em um banco de dados, bem como a criação de diagramas e especificações que descrevem como os dados serão usados em aplicativos e sistemas.
 
 A modelagem de dados é uma etapa importante na construção de sistemas de informação eficientes e confiáveis.
+
+### Modelagem Relacional X Modelagem Dimensional X Modelagem de Data Lakes
+
+#### Modelagem Relacional
+
+A **Modelagem Relacional** é uma abordagem para projetar bancos de dados que se baseia nas relações entre as entidades, com tabelas e campos. Isso envolve a criação de tabela sque representam entidades, como clientes ou pedidos, e definição de relações entre essas tabelas, como "um cliente pode fazer vários pedidos".
+
+A modelagem relacional é amplamente utilizada em sistemas de gerenciamento de banco de dados relacional (SGBDs) e é uma abordagem estruturada e estável para armazenar e gerenciar dados em sistemas transacionais.
+
+#### Modelagem Dimensional
+
+A **Modelagem Dimensional** é uma técnica de modelagem de dados utilizada principalmente em sisrtemas de Business Intelligence (BI) e Data Warehousing (WD). Ela consiste em modelar os dados de forma a facilitar a análise de dados multidimensionais.
+
+Os modelos dimensionais são construídos a partir de fatos (tabelas de medidas) e dimensões (tabelas de contexto), onde os fatos são medidas quantitativas, como vendas, e as dimensões são contextos dessas medidas, como data, local, produto, entre outros. Essas dimensões são divididas em hierarquias, o que permite uma análise detalhada dos dados.
