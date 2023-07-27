@@ -31,3 +31,11 @@ Os modelos dimensionais são construídos a partir de fatos (tabelas de medidas)
 A **Modelagem Data Lakes**, por outro lado, é uma abordagem para projetar sistemas de armazenamento de dados que são voltados para análise de grandes volumes de dados não estruturados. Um Data Lake é uma grande coleção de dados brutos, normalmente armazenada em sistemas de arquivos distribuídos, como o HDFS, que podem ser facilmente acessados e processados por ferramentas de análise de Big Data.
 
 É menor estruturada e mais flexível do que a Modelagem Relacional e é projetada para lidar com grandes volumes de dados e permitir análises exploratórias dos dados. Com Data Lakes estamos preocupados primeiro em armazenar os dados no formato bruto, mas em algum momento os dados terão que ser organizados e estruturados e podem ser modelados e carregados em um DW, por exemplo.
+
+## O que é Esquema em Modelagem de Dados?
+
+Os esquemas de dados é uma estrutura lógica que descreve como os dados estão organizados e relacionados em um banco de dados. ele define as tabelas, campos e relacionamentos entre as tabelas, além de outras restrições e propriedades dos dados.
+
+Em um banco transacional ou em um DW, o esquema é o mandatário e deve ser definido antes da carga de dados. Um mesmo SGBD pode ter diversos bancos de dados e cada banco de dados pode ter diversos esquemas (schemas).
+
+No Data Lake normalmente não temos esquema pré-definido, mas alguma organização será requerida para o armazenamento.
