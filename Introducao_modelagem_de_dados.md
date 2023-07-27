@@ -25,3 +25,9 @@ A modelagem relacional é amplamente utilizada em sistemas de gerenciamento de b
 A **Modelagem Dimensional** é uma técnica de modelagem de dados utilizada principalmente em sisrtemas de Business Intelligence (BI) e Data Warehousing (WD). Ela consiste em modelar os dados de forma a facilitar a análise de dados multidimensionais.
 
 Os modelos dimensionais são construídos a partir de fatos (tabelas de medidas) e dimensões (tabelas de contexto), onde os fatos são medidas quantitativas, como vendas, e as dimensões são contextos dessas medidas, como data, local, produto, entre outros. Essas dimensões são divididas em hierarquias, o que permite uma análise detalhada dos dados.
+
+#### Modelagem Data Lakes
+
+A **Modelagem Data Lakes**, por outro lado, é uma abordagem para projetar sistemas de armazenamento de dados que são voltados para análise de grandes volumes de dados não estruturados. Um Data Lake é uma grande coleção de dados brutos, normalmente armazenada em sistemas de arquivos distribuídos, como o HDFS, que podem ser facilmente acessados e processados por ferramentas de análise de Big Data.
+
+É menor estruturada e mais flexível do que a Modelagem Relacional e é projetada para lidar com grandes volumes de dados e permitir análises exploratórias dos dados. Com Data Lakes estamos preocupados primeiro em armazenar os dados no formato bruto, mas em algum momento os dados terão que ser organizados e estruturados e podem ser modelados e carregados em um DW, por exemplo.
