@@ -32,10 +32,17 @@ A **Modelagem Data Lakes**, por outro lado, é uma abordagem para projetar siste
 
 É menor estruturada e mais flexível do que a Modelagem Relacional e é projetada para lidar com grandes volumes de dados e permitir análises exploratórias dos dados. Com Data Lakes estamos preocupados primeiro em armazenar os dados no formato bruto, mas em algum momento os dados terão que ser organizados e estruturados e podem ser modelados e carregados em um DW, por exemplo.
 
-## O que é Esquema em Modelagem de Dados?
+## O Que É Esquema em Modelagem de Dados?
 
 Os esquemas de dados é uma estrutura lógica que descreve como os dados estão organizados e relacionados em um banco de dados. ele define as tabelas, campos e relacionamentos entre as tabelas, além de outras restrições e propriedades dos dados.
 
 Em um banco transacional ou em um DW, o esquema é o mandatário e deve ser definido antes da carga de dados. Um mesmo SGBD pode ter diversos bancos de dados e cada banco de dados pode ter diversos esquemas (schemas).
 
 No Data Lake normalmente não temos esquema pré-definido, mas alguma organização será requerida para o armazenamento.
+
+## O Que São Constraints?
+
+Constraints, ou restrições, são regras ou limitações que são aplicadas aos dados em um banco de dados para garantir a integridade dos dados. Essas restrições podem incluir regras de validação, como verificar se um valor é numérico ou se uma data está no formato correto, ou regras de integridade referencial, que garantem que os dados em diferentes tabelas sejam consistentes entre si.
+
+Alguns exemplos de constraints são: NOT NULL, UNIQUE, PRIMARY KEY, FOREIGN KEY, CHECK E DEFAULT.
+
