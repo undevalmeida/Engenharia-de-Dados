@@ -46,3 +46,32 @@ Constraints, ou restrições, são regras ou limitações que são aplicadas aos
 
 Alguns exemplos de constraints são: NOT NULL, UNIQUE, PRIMARY KEY, FOREIGN KEY, CHECK E DEFAULT.
 
+## Modelo Conceitual, Lógico e Físico
+
+### Modelo Conceitual
+
+O **Modelo Conceitual** é uma das três camadas de modelagem de dados, juntamente com o modelo lógico e o modelo físico. É a camada mais abstrata da modelagem de dados e é projetada para representar os dados de uma organização de forma independente de qualquer sistema ou tecnologia específica.
+
+O **Modelo Conceitual** é projetado para capturar a estrutura de negócio dos dados, incluindo entidades, atributos e relacionamentos, e é usado para comunicar a estrutura de dados para os stakeholders de negócios. Esse modelo é geralmente desenvolvido usando notações gráficas, como diagramas de entidade-relacionamento (ER), e é usado como base para criação dos modelos lógicos e físico.
+
+O **Modelo Conceitual** é a primeira etapa de modelagem de dados e é importante para garantir que os dados sejam projetados de forma consistente e coerente com as necessidades de negócio da empresa. Embora às vezes seja negligenciado, esse modelo é fundamental para a compreensão sobre os dados.
+
+### Modelo Lógico
+
+O **Modelo Lógico** é uma das três camadas de modelagem de dados, juntamente com o modelo conceitual e o modelo físico. Ele é a representação lógica dos dados, independente da plataforma ou tecnologia de banco de dados específica que será usada na implementação física.
+
+O **Modelo Lógico** é a representação dos dados como tabelas, campos e relacionamentos, e é usado para descrever a estrutura lógica dos dados. Esse modelo é projetado para capturar a estrutura de negócio nos dados, incluindo entidades, atributos e relacionamentos, mas é adaptado para se adequar às necessidades de implementação do banco de dados, independente da tecnologia usada.
+
+Ele é geralmente desenvolvido usando notações gráficas, como diagramas de entidade-relacionamento (ER), e é usado como base para criação do modelo físico. 
+
+O **Modelo Lógico** permite identificar eventuais problemas que poderão ocorrer na implementação física.
+
+### Modelo Físico
+
+O **Modelo Físico** é a última camada de modelagem de dados. Ele é a representação física dos dados, incluindo a estrutura de armazenamento e as configurações de banco de dados epecíficas. Ele descreve como os dados serão armazenados e como eles serão acessados em um sistema de gerenciamento de banco de dados específico.
+
+O **Modelo Físico** deve conter todas as definições de constraints, índices e particionamento dos dados.
+
+O **Modelo Físico** incui detalhes como o nome das tabelas e campos, tipo de dados, tamanho, índices, chaves estrangeiras e outras configurações de banco de dados específicas. Esse modelo normalmente é uma extensão do modelo lógico contendo os detalhes de implementação em um SGBD espcífico. Diversas ferramentas de modelagem permitem converter um modelo lógico para um modelo físico de acordo com o SGBD escolhido.
+
+Ele é a etapa final da modelagem de dados e é importante para garantir a eficiência, desempenho e escalabilidade do banco de dados.
