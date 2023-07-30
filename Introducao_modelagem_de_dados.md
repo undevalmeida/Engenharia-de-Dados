@@ -75,3 +75,9 @@ O **Modelo Físico** deve conter todas as definições de constraints, índices 
 O **Modelo Físico** incui detalhes como o nome das tabelas e campos, tipo de dados, tamanho, índices, chaves estrangeiras e outras configurações de banco de dados específicas. Esse modelo normalmente é uma extensão do modelo lógico contendo os detalhes de implementação em um SGBD espcífico. Diversas ferramentas de modelagem permitem converter um modelo lógico para um modelo físico de acordo com o SGBD escolhido.
 
 Ele é a etapa final da modelagem de dados e é importante para garantir a eficiência, desempenho e escalabilidade do banco de dados.
+
+### Granularidade
+
+Granularidade é o nível de detalhe ou precisão com que os dados são representados em um modelo de dados.
+
+A granularidade dos dados pode ser alta, quando os dados são divididos em muitas entidades e atributos pequenos, ou baixa, quando os dados são agregados em poucas entidades e atributos maiores. A granularidade é uma característica importante a ser considerada na modelagem de dados, pois afeta a capacidade de armazenar, recuperar e analisar dados. Uma granularidade alta permite uma maior flexibilidade e precisão na análise dos dados, mas pode exigir mais armazenamento e processamento. Por outro lado, uma granularidade pode resultar em dados agregados e menos precisos, mas pode ser mais fácil de armazenar e processar. Portanto, é importante equilibrar a granularidade dos dados com as necessidades de negócio e técnica para garantir uma boa modelagem de dados.
