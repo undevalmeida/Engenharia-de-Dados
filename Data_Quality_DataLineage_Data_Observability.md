@@ -104,3 +104,4 @@ Com a Observabilidade dos Dados, uma organização pode identificar melhor seus 
    * Rastreia mudanças na organização, quem fez quais mudanças nos dados e quando.
 5. Lineage
    * Registra e documenta todo o fluxo de dados desde as fontes iniciais até o consumo final. 
+
