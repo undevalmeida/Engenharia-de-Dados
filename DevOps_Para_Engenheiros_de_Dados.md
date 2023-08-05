@@ -9,3 +9,13 @@ A cultura DevOps enfatiza a colaboração e a comunicação contínua entre as e
 As práticas DevOps incluem automação de processos de infraestrutura e deployment (implantação) de software, monitoramento e análise de métricas de performance e estabilidade, testes  automatizados  e  contínuos,  e  implementação  de  feedbacks  contínuos  e  iterações  no processo de desenvolvimento.
 
 O objetivo final de DevOps é criar uma cultura e um processo de entrega de software eficiente, ágil e confiável, permitindo às organizações responder rapidamente às necessidades de seus usuários e do mercado.
+
+Práticas DevOps:
+
+* Automação de infraestrutura
+* controle de versão
+* Integração contínua
+* Entrega contínua
+* Monitoramento
+* Automação de processamento de dados
+* Testes automatizados
