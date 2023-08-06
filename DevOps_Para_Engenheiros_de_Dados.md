@@ -19,3 +19,18 @@ Práticas DevOps:
 * Monitoramento
 * Automação de processamento de dados
 * Testes automatizados
+
+#### O que É IaC?
+
+Infraestrutura como código (IaC) é uma prática de DevOps que consiste em gerenciar a infraestrutura de TI usando código.
+
+Em vez de configurar manualmente servidores, redes, bancos de dados, e outros componentes de infraestrutura, a IaC permite que esses recursos sejam criados, configurados e gerenciados automaticamente através de código.
+
+A  IaC  é  geralmente  implementada  usando  linguagens  de  programação  ou  ferramentas específicas que permitem descrever a infraestrutura como código. Esses códigos podem então ser   armazenados   em   sistemas   de   controle   de   versão,   permitindo   que   as   alterações   na infraestrutura sejam gerenciadas como mudanças no código.
+
+Algumas das principais vantagens da IaC incluem:
+
+* **Consistência**: A infraestrutura pode ser criada e configurada de maneira consistente em todos os ambientes, incluindo desenvolvimento, teste e produção.
+* **Eficiência**:  A  IaC  permite  que  a  infraestrutura  seja  gerenciada  de  forma  mais  rápida  e eficiente,  reduzindo  o  tempo  e  o  esforço  necessários  para  configurar  servidores  e  outros componentes de infraestrutura.
+* **Flexibilidade**:  As  configurações  de  infraestrutura  podem  ser  facilmente  alteradas  e atualizadas com base nas necessidades do aplicativo ou serviço.
+* **Controle de versão**: Todas as alterações na infraestrutura são controladas e gerenciadas como mudanças no código,o que permite o controle de versão, o rastreamento e a colaboração de equipe.
