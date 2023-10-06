@@ -1,0 +1,7 @@
+# OLTP
+
+### Online Transaction Processing
+
+O OLTP ou Processamento de Transações Online é um tipo de processamento de dados que consiste na execução de várias transações que ocorrem simultaneamente (transações bancárias online, compras, entrada de pedidos ou envio de mensagens de texto, por exemplo). Essas transações são tradicionalmente chamadas de transações econômicas ou financeiras, registradas e protegidas para que uma empresa possa acessar as informações a qualquer momento para fins contábeis ou de relatórios.
+
+A definição primária para transações, sejam elas econômicas ou financeiras, continua sendo a base para a maioria dos sistemas OLTP, portanto, o processamento de transações online normalmente envolve inserir, atualizar e/ou excluir pequenas quantidades de dados em um armazenamento de dados para coletar, gerenciar e proteger essas transações. Normalmente, uma aplicação da Web, móvel ou corporativa, rastreia todas essas interações ou transações com clientes, fornecedores ou parceiros e as atualiza no banco de dados OLTP. Esses dados de transação armazenados no banco de dados são essenciais para as empresas e são usados em relatórios ou analisados visando a tomada de decisões orientada por dados.
