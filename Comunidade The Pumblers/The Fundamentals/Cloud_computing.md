@@ -14,6 +14,24 @@ A computação em nuvem é uma grande mudança na forma tradicional de pensament
 * Confiabilidade: A computação em nuvem facilita e reduz os custos de backup de dados, recuperação de desastre e continuidade dos negócios, já que os dados podem ser espelhados em diversos sites redundantes na rede do provedor de serviços de nuvem.
 * Segurança: Muitos provedores em nuvem oferecem um amplo conjunto de políticas, tecnologias e controles que fortalecem sua postura geral de segurança, ajudando a proteger os dados, os aplicativos e a infraestrutura contra possíveis ameaças.
 
+### Tipos de Computação em Nuvem
+
+Nem todas as nuvens são iguais e não há um tipo de computação em nuvem que seja ideal para todas as pessoas. Vários modelos, tipos e serviços diferentes evoluíram para ajudar a oferecer a solução certa para suas necessidades.
+
+Primeiro, você precisa determinar o tipo de implantação de nuvem ou a arquitetura de computação em nuvem, no qual seus serviços de nuvem serão implementados. Há três maneiras diferentes de implantar serviços de nuvem: em uma nuvem pública, nuvem privada ou nuvem híbrida. [Saiba mais sobre as nuvens pública, privada e híbrida](https://azure.microsoft.com/pt-br/resources/cloud-computing-dictionary/what-are-private-public-hybrid-clouds/)
+
+#### Nuvem Pública
+
+As nuvens públicas pertencem a provedores de serviços de nuvem terceirizados e são administradas por eles. Eles também fornecem recursos de computação, tais como servidores e armazenamento, pela Internet. O Microsoft Azure é um exemplo de nuvem pública. Com uma nuvem pública, todo o hardware, software e outras infraestruturas de suporte são de propriedade e gerenciadas pelo provedor de serviços de nuvem. Você acessa esses serviços e gerencia sua conta usando um navegador da Web. 
+
+#### Nuvem Privada
+
+Uma nuvem privada se refere aos recursos de computação em nuvem usados exclusivamente por uma única empresa ou organização. Uma nuvem privada pode estar localizada fisicamente no data center local da empresa. Algumas empresas também pagam provedores de serviços terceirizados para hospedar sua nuvem privada. Uma nuvem privada é aquela em que os serviços e a infraestrutura são mantidos em uma rede privada.
+
+#### Nuvem Híbrida
+
+Nuvens híbridas combinam nuvens públicas e privadas ligadas por uma tecnologia que permite que dados e aplicativos sejam compartilhados entre elas. Permitindo que os dados e os aplicativos se movam entre nuvens privadas e públicas, uma nuvem híbrida oferece à sua empresa maior flexibilidade, mais opções de implantação e ajuda a otimizar sua infraestrutura, segurança e conformidade existentes.
+
 ### Tipos de Serviços de Nuvem: IaaS, PaaS, sem servidor e SaaS
 
 A maioria dos serviços de computação em nuvem se enquadra em quatro categorias amplas: IaaS (infraestrutura como serviço), PaaS (plataforma como serviço), sem servidor e SaaS (software como serviço). Às vezes, eles são chamados de ""pilha"" de computação em nuvem, pois são criados uns sobre os outros. Saber o que eles são e como são diferentes ajuda a alcançar suas metas comerciais.
