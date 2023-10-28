@@ -13,6 +13,8 @@
 * **Git log**: Histórico de commits
 * **Git push**: Envia o commit local para o principal
 * **Git pull**: Atualiza as alterações feita por outro usuário
-* **Git branch < nome branch >**: Cria um novo ramo 
+* **Git checkout -b < nome branch >**: Cria um novo ramo 
 * **Git merge**: Fusão entre a branch criada e outra branch
 * **Git branch -d < nome da branch >**: Apaga uma branch.
+* **Git branch**: Visualiza as branch's existentes
+* **Git config --global init.defaultBranch main**: Definindo convenção para branch principal
