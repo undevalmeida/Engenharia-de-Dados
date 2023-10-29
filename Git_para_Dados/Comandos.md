@@ -18,3 +18,7 @@
 * **Git branch -d < nome da branch >**: Apaga uma branch.
 * **Git branch**: Visualiza as branch's existentes
 * **Git config --global init.defaultBranch main**: Definindo convenção para branch principal
+* **Git checkout < nome da branch >**: Muda para a branch digitada
+* **Git branch -a**: Mostra também os apontamentos remotos
+* **Git log --oneline**: Visualização da árvore de commit's
+* **Git reflog**: lista de commit's existentes
