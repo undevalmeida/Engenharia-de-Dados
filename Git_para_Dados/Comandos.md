@@ -21,4 +21,7 @@
 * **Git checkout < nome da branch >**: Muda para a branch digitada
 * **Git branch -a**: Mostra também os apontamentos remotos
 * **Git log --oneline**: Visualização da árvore de commit's
-* **Git reflog**: lista de commit's existentes
+* **Git reflog**: Lista de commit's existentes
+* **Git stash**: Envia um arquivo para outra branch, mas só pode ser usado após adicionar o arquivo à stage área com "git add ..."
+* **Git stash pop**: Coleta o arquivo da stage àrea para a branch atual. 
+* **Git stash list**: Lista as stash's que estão prontas para serem mudadas de branch. 
