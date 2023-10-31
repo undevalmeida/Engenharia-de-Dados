@@ -25,4 +25,14 @@
 * **Git stash**: Envia um arquivo para outra branch, mas só pode ser usado após adicionar o arquivo à stage área com "git add ..."
 * **Git stash pop**: Coleta o arquivo da stage àrea para a branch atual. 
 * **Git stash list**: Lista as stash's que estão prontas para serem mudadas de branch.
-* **Git log --oneline -graph**: Mostra a plilha de comites até a criação das branch's  
+* **Git log --oneline -graph**: Mostra a plilha de comites até a criação das branch's
+* **Git checkout -b < nome da branch > < hash da branch deletada>**: Restaurando branch apagada
+* **Git checkout --orphan < nome da branch >**: Criando branch orfã, sem histórico
+* **Git tag < versão >**: Criando tag para as versões
+* **Git tag**: Visualizar as tags
+* **Git tag -d < nome da tag >**: Deletar tag
+* **Git show < nome da versão definida >**: Visualizar as informações na tag desejada
+* **Git show < nome da versão definida > --stat**: Visualizar uma versão mais coesa do que houve de alterações
+* **Git show --stat**: Visualiza também de forma coesa as informações
+* **Git tag -a < nome da tag > -m "mensagem"**: Criando e adicionando uma mensagem à tag
+* **Git tag -n**: Visualiza as tag's e suas mensagens
