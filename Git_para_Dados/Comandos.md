@@ -36,3 +36,5 @@
 * **Git show --stat**: Visualiza também de forma coesa as informações
 * **Git tag -a < nome da tag > -m "mensagem"**: Criando e adicionando uma mensagem à tag
 * **Git tag -n**: Visualiza as tag's e suas mensagens
+* **Git log --oneline --graph --all --grep="palavra a procura" -1**: Filtrar todos os commit's que contenham a palavra desejada ignorando o case sensitive
+* **Git log --oneline --graph --all --author="nome do autor"**: Filtra pelo autor
