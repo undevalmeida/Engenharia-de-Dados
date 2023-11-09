@@ -42,7 +42,7 @@ As ferramentas de gerenciamento de configuração e automação do servidor em g
 Estas são algumas escolhas bastante conhecidas:
 * Chef
 * Puppet
-* Red Hat Ansible Automation Platform
+* Pulumi
 * Saltstack
 * Terraform 
 * AWS CloudFormation
