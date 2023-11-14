@@ -23,3 +23,5 @@ Você pode ativar backups automatizados ou pode criar manualmente seus próprios
 Você pode obter alta disponibilidade com uma instância primária e uma instância secundária síncrona que pode ser usada para failover em caso de problemas. Também é possível usar réplicas de leitura para aumentar a escalabilidade de leitura.
 
 Além da segurança em seu pacote de banco de dados, você pode ajudar a controlar quem pode acessar seus bancos de dados do RDS. Para fazer isso, você pode usar o AWS Identity and Access Management (IAM) para definir usuários e permissões. Você também pode ajudar a proteger seus bancos de dados colocando-os em uma nuvem privada virtual (VPC).
+
+[Link](https://docs.aws.amazon.com/pt_br/AmazonRDS/latest/UserGuide/Welcome.html)
