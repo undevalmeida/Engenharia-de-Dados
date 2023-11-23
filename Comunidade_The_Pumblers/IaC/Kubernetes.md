@@ -31,3 +31,20 @@ As máquinas no cluster do Kubernetes recebem uma função dentro do ecossistema
 As outras máquinas no cluster são designadas como nós: servidores responsáveis por aceitar e executar cargas de trabalho usando recursos locais e externos. Para ajudar com isolamento, gerenciamento e flexibilidade, o Kubernetes executa aplicativos e serviços em contêineres, portanto, cada nó precisa ser equipado com um tempo de execução de contêiner (como Docker ou rkt). O nó recebe instruções de trabalho do servidor mestre e cria ou destrói contêineres de acordo, ajustando as regras de rede para rotear e encaminhar o tráfego adequadamente.
 
 Como mencionado acima, os próprios aplicativos e serviços são executados no cluster dentro de contêineres. Os componentes subjacentes garantem que o estado desejado dos aplicativos corresponda ao estado real do cluster. Os usuários interagem com o cluster comunicando-se com o servidor principal da API do Kubernetes diretamente ou com clientes e bibliotecas. Para iniciar um aplicativo ou serviço, um plano declarativo é enviado em JSON ou YAML definindo o que criar e como ele deve ser gerenciado. Em seguida, o servidor mestre pega o plano e descobre como executá-lo na infraestrutura examinando os requisitos e o estado atual do sistema. Esse grupo de aplicativos definidos pelo usuário em execução de acordo com um plano especificado representa a camada final do Kubernetes.
+
+![](Arquitetura%20Cluster%20Kubernetes.png)
+
+## Noções Básicas do Kubernetes
+
+### Início do Minikube
+
+### O que você vai precisar
+2 CPUs ou mais  
+2GB de memória livre  
+20GB de espaço livre em disco  
+Ligação à Internet  
+Gerenciador de contêiner ou máquina virtual, como: Docker, QEMU, Hyperkit, Hyper-V, KVM, Parallels, Podman, VirtualBox ou VMware Fusion/Workstation
+
+minikube é Kubernetes local, com foco em facilitar o aprendizado e desenvolvimento para o Kubernetes.
+
+Tudo o que você precisa é de um contêiner do Docker (ou similarmente compatível) ou de um ambiente de Máquina Virtual, e o Kubernetes está a um único comando de distância:  [Minikube Start](https://minikube.sigs.k8s.io/docs/start/)
