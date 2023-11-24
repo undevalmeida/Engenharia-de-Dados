@@ -48,3 +48,23 @@ Gerenciador de contêiner ou máquina virtual, como: Docker, QEMU, Hyperkit, Hyp
 minikube é Kubernetes local, com foco em facilitar o aprendizado e desenvolvimento para o Kubernetes.
 
 Tudo o que você precisa é de um contêiner do Docker (ou similarmente compatível) ou de um ambiente de Máquina Virtual, e o Kubernetes está a um único comando de distância:  [Minikube Start](https://minikube.sigs.k8s.io/docs/start/)
+
+
+## Imagens
+Uma imagem de contêiner representa dados binários que encapsulam um aplicativo e todos os seus dependências de software. As imagens de contêiner são pacotes de software executáveis que podem ser executados autônomos e que fazem suposições muito bem definidas sobre seu ambiente de tempo de execução.
+
+Normalmente, você cria uma imagem de contêiner do seu aplicativo e a envia por push para um registro antes de se referir a ele em um Pod.
+
+Esta página fornece uma estrutura de tópicos do conceito de imagem de contêiner.
+
+
+### Nomes de imagem
+As imagens de contêiner geralmente recebem um nome como , ou . As imagens também podem incluir um nome de host do Registro; por exemplo: e, possivelmente, um número de porta também; por exemplo:.pauseexample/mycontainerkube-apiserverfictional.registry.example/imagenamefictional.registry.example:10443/imagename
+
+Se você não especificar um nome de host do Registro, o Kubernetes assumirá que você se refere ao registro público do Docker.
+
+Após a parte do nome da imagem, você pode adicionar uma tag (da mesma forma que faria ao usar com comandos like ou ). As tags permitem identificar versões diferentes da mesma série de imagens.dockerpodman
+
+As tags de imagem consistem em letras minúsculas e maiúsculas, dígitos, sublinhados (), pontos () e traços ().
+Existem regras adicionais sobre onde você pode colocar o separador caracteres (, e ) dentro de uma marca de imagem.
+Se você não especificar uma tag, o Kubernetes assumirá que você se refere à tag.
