@@ -59,6 +59,7 @@ Esta página fornece uma estrutura de tópicos do conceito de imagem de contêin
 
 
 ### Nomes de imagem
+
 As imagens de contêiner geralmente recebem um nome como , ou . As imagens também podem incluir um nome de host do Registro; por exemplo: e, possivelmente, um número de porta também; por exemplo:.pauseexample/mycontainerkube-apiserverfictional.registry.example/imagenamefictional.registry.example:10443/imagename
 
 Se você não especificar um nome de host do Registro, o Kubernetes assumirá que você se refere ao registro público do Docker.
