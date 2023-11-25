@@ -34,6 +34,20 @@ Como mencionado acima, os próprios aplicativos e serviços são executados no c
 
 ![](Arquitetura%20Cluster%20Kubernetes.png)
 
+## Componentes do servidor mestre
+
+Como descrevemos acima, o servidor mestre atua como o plano de controle primário para clusters Kubernetes. Ele serve como o principal ponto de contato para administradores e usuários, e também fornece muitos sistemas em todo o cluster para os nós de trabalho relativamente pouco sofisticados. Em geral, os componentes no servidor mestre trabalham juntos para aceitar solicitações do usuário, determinar as melhores maneiras de agendar contêineres de carga de trabalho, autenticar clientes e nós, ajustar a rede em todo o cluster e gerenciar as responsabilidades de dimensionamento e verificação de integridade.
+
+Esses componentes podem ser instalados em uma única máquina ou distribuídos em vários servidores. Examinaremos cada um dos componentes individuais associados aos servidores mestre para clusters Kubernetes nesta seção.
+
+### Etcd
+
+Um dos componentes fundamentais que o Kubernetes precisa para funcionar é um armazenamento de configuração disponível globalmente. O projeto etcd, desenvolvido pela equipe do CoreOS (sistema operacional), é um armazenamento de chave-valor distribuído leve que pode ser configurado para se estender por vários nós.
+
+O Kubernetes usa para armazenar dados de configuração que podem ser acessados por cada um dos nós no cluster. Isso pode ser usado para descoberta de serviço e pode ajudar os componentes a configurar ou reconfigurar a si mesmos de acordo com informações atualizadas. Ele também ajuda a manter o estado do cluster com recursos como eleição de líder e bloqueio distribuído. Ao fornecer uma API HTTP/JSON simples, a interface para definir ou recuperar valores é muito direta.
+
+Como a maioria dos outros componentes no plano de controle, pode ser configurado em um único servidor mestre ou, em cenários de produção, distribuído entre várias máquinas. O único requisito é que ele seja acessível em rede para cada uma das máquinas Kubernetes.
+
 ## Noções Básicas do Kubernetes
 
 ### Início do Minikube
@@ -48,6 +62,7 @@ Gerenciador de contêiner ou máquina virtual, como: Docker, QEMU, Hyperkit, Hyp
 minikube é Kubernetes local, com foco em facilitar o aprendizado e desenvolvimento para o Kubernetes.
 
 Tudo o que você precisa é de um contêiner do Docker (ou similarmente compatível) ou de um ambiente de Máquina Virtual, e o Kubernetes está a um único comando de distância:  [Minikube Start](https://minikube.sigs.k8s.io/docs/start/)
+
 
 
 ## Imagens
