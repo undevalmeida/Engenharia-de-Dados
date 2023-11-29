@@ -16,3 +16,7 @@ O Kubernetes fornece a você:
 Dimensionamento horizontal Aumente e diminua a escala do seu aplicativo com um comando simples, com uma interface do usuário ou automaticamente com base no uso da CPU.
 * **IPv4/IPv6 de pilha dupla** Alocação de endereços IPv4 e IPv6 para Pods e Serviços
 * **Projetado para extensibilidade** Adicione recursos ao seu cluster Kubernetes sem alterar o código-fonte upstream.
+
+## O que o Kubernetes não é
+
+O Kubernetes não é um sistema PaaS (plataforma como serviço) tradicional e completo. Como o Kubernetes opera no nível do contêiner, e não no nível do hardware, ele fornece alguns recursos geralmente aplicáveis comuns às ofertas de PaaS, como implantação, escalonamento, balanceamento de carga, e permite que os usuários integrem suas soluções de logging, monitoramento e alerta. No entanto, o Kubernetes não é monolítico, e essas soluções padrão são opcionais e conectáveis. O Kubernetes fornece os blocos de construção para a construção de plataformas de desenvolvimento, mas preserva a escolha e flexibilidade do usuário onde é importante.
